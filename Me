@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="A professional and appealing GitHub Pages site for showcasing projects, skills, and contact details.">
+    <title>mackKaliOs Portfolio</title>
+    <style>
+        /* General Reset */
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            background: linear-gradient(135deg, #ff0000, #ff7300, #ffeb00, #47ff00, #00ffee, #2b65ff, #8000ff, #ff0084);
+            background-size: 200% 200%;
+            animation: gradientShift 15s ease infinite;
+            color: #333;
+            min-height: 100vh;
+            display: flex;
+            flex-direction: column;
+        }
+
+        @keyframes gradientShift {
+            0% { background-position: 0% 50%; }
+            50% { background-position: 100% 50%; }
+            100% { background-position: 0% 50%; }
+        }
+
+        header {
+            background: #222;
+            color: #fff;
+            padding: 1rem 2rem;
+            text-align: center;
+            position: sticky;
+            top: 0;
+            z-index: 1000;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+        }
+
+        header h1 {
+            font-size: 2.5rem;
+            margin-bottom: 0.5rem;
+        }
+
+        header p {
+            font-size: 1rem;
+        }
+
+        nav {
+            margin-top: 1rem;
+        }
+
+        nav a {
+            color: #fda085;
+            text-decoration: none;
+            margin: 0 1rem;
+            font-weight: bold;
+        }
+
+        nav a:hover {
+            color: #f6d365;
+        }
+
+        section {
+            padding: 2rem;
+            margin: 2rem auto;
+            max-width: 900px;
+            background: #fff;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        }
+
+        section h2 {
+            font-size: 2rem;
+            margin-bottom: 1rem;
+            color: #fda085;
+        }
+
+        footer {
+            background: #222;
+            color: #fff;
+            text-align: center;
+            padding: 1rem 0;
+            margin-top: auto;
+        }
+
+        footer a {
+            color: #fda085;
+            text-decoration: none;
+        }
+
+        footer a:hover {
+            color: #f6d365;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Welcome to My Portfolio</h1>
+        <p>Your one-stop showcase for projects, skills, and achievements</p>
+        <nav>
+            <a href="#about">About Me</a>
+            <a href="#portfolio">Portfolio</a>
+            <a href="#contact">Contact</a>
+        </nav>
+    </header>
+
+    <section id="about">
+        <h2>About Me</h2>
+        <p>Welcome! I am an Engineer, who loves quantumn computing, neuromorphic desing, BCI design. I create financial matrix real time forcasting quantum simulations. Currently I'm working on R. </p>
+    </section>
+
+    <section id="portfolio">
+        <h2>Portfolio</h2>
+        <p>I'll showcase my projects here! I'll include links to GitHub repositories, live demos, or screenshots of my work. Check back soon for it. .</p>
+    </section>
+
+    <section id="contact">
+        <h2>Contact</h2>
+        <p>Kayleighy@MackintoshEnterprises.com     LinkedIn: @/MackintoshKay</p>
+    </section>
+
+    <footer>
+        <p>&copy; 2025 mackKaliOs | Powered by <a href="https://pages.github.com">GitHub Pages</a></p>
+    </footer>
+</body>
+</html>
